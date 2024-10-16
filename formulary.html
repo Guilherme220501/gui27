@@ -20,10 +20,10 @@ form{align-items: center;justify-content: center;display: flex;flex-direction: c
 fieldset{width: 300px;margin: auto;border-radius: 10px 10px;padding: 20px;align-items: center;justify-content: center;display: flex;flex-direction: column;background-color: bisque;border: 5px solid white;box-shadow: 8px 8px 8px blue;}
 label{font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: inherit;text-shadow: 6px;color: black;display: flex;flex-direction: column;padding: 10px;align-items: center;justify-content: center;}
 input{width: 300px;margin: auto;border-radius: 10px 10px;padding: 10px;border: 5px solid blue;background-color: white;text-align: left;font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: initial;text-shadow: 6px;color: black;display: flex;flex-direction: column;align-items: center;justify-content: center;}
-.color1{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: black;box-shadow: 8px 8px 8px yellow;}
-.color2{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: blue;box-shadow: 8px 8px 8px white;}
-.color3{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: burlywood;box-shadow: 8px 8px 8px black;}
-.color4{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: white;box-shadow: 8px 8px 8px black;}
+.color1{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: black;box-shadow: 8px 8px 8px yellow;border-radius: 10px 10px;}
+.color2{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: blue;box-shadow: 8px 8px 8px white;border-radius: 10px 10px;}
+.color3{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: burlywood;box-shadow: 8px 8px 8px black;border-radius: 10px 10px;}
+.color4{gap: 10px;display: flex;flex-direction: row;align-items: center;justify-content: center;width: 300px;margin: auto;padding: 10px;background-color: white;box-shadow: 8px 8px 8px black;border-radius: 10px 10px;}
 select{width: 150px;margin: auto;border-radius: 10px 10px;padding: 10px;background-color: black;color: yellow;border: 5px solid white;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: inherit;text-shadow: 6px;}
 textarea{height: 200px;width: 300px;margin: auto;border-radius: 10px 10px;padding: 10px;background-color: white;border: 5px solid red;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px;color: black;font-style: inherit;text-shadow: 6px;}
 button{width: 200px;margin: auto;border-radius: 10px 10px;text-shadow: 6px;padding: 10px;background-color: blue;color: white;border: 6px solid white;box-shadow: 5px 5px 5px blue;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 20px;font-style: initial;}
@@ -74,17 +74,17 @@ footer{width: 300px;padding: 20px;margin: auto;border-radius: 10px 10px;align-it
     <div class="summary"><div id="text"><details><summary style="background-color: black;color: white;border: 5px solid white;box-shadow: 8px 8px 8px yellow;">QUAL?</summary>
     <br>
     <div class="color1">
-    <label for="Solteiro">Solteiro</label>
+    <label for="Solteiro" style="font-size: 6px;color: white;">Solteiro</label>
     <input type="checkbox" value="Solteiro" name="cívil?">
-    <label for="Casado">Casado</label>
+    <label for="Casado" style="font-size: 6px;color: white;">Casado</label>
     <input type="checkbox" value="Casado" name="cívil?">
-    <label for="Divorciado">Divorciado</label>
+    <label for="Divorciado" style="font-size: 6px;color: white;">Divorciado</label>
     <input type="checkbox" value="Divorciado" name="cívil?">
-    <label for="Separado">Separado</label>
+    <label for="Separado" style="font-size: 6px;color: white;">Separado</label>
     <input type="checkbox" value="Separado" name="cívil?">
-    <label for="Comprometido">Comprometido</label>
+    <label for="Comprometido" style="font-size: 6px;color: white;">Comprometido</label>
     <input type="checkbox" value="Comprometido" name="cívil?">
-    <label for="Viúvo">Viúvo</label>
+    <label for="Viúvo" style="font-size: 6px;color: white;">Viúvo</label>
     <input type="checkbox" value="Viúvo" name="cívil?">
     </div>
     </details></div>
@@ -95,17 +95,17 @@ footer{width: 300px;padding: 20px;margin: auto;border-radius: 10px 10px;align-it
     <div class="summary"><div id="text"><details><summary style="background-color: blue;color: white;border: 6px solid white;box-shadow: 8px 8px 8px blue;">QUAL?</summary>
     <br>
     <div class="color2">
-    <label for="Aprendiz">Aprendiz</label>
+    <label for="Aprendiz" style="font-size: 6px;color: white;">Aprendiz</label>
     <input type="radio" value="Aprendiz" name="experiência" required>
-    <label for="Iniciante">Iniciante</label>
+    <label for="Iniciante" style="font-size: 6px;color: white;">Iniciante</label>
     <input type="radio" value="Iniciante" name="experiência" required>
-    <label for="Intermediário">Intermediário</label>
+    <label for="Intermediário" style="font-size: 6px;color: white;">Intermediário</label>
     <input type="radio" value="Intermediário" name="experiência" required>
-    <label for="Mediano">Mediano</label>
+    <label for="Mediano" style="font-size: 6px;color: white;">Mediano</label>
     <input type="radio" value="Mediano" name="experiência" required>
-    <label for="Avançado">Avançado</label>
+    <label for="Avançado" style="font-size: 6px;color: white;">Avançado</label>
     <input type="radio" value="Avançado" name="experiência" required>
-    <label for="Master">Master</label>
+    <label for="Master" style="font-size: 6px;color: white;">Master</label>
     <input type="radio" value="Master" name="experiência" required>
     </div>
     </details></div>
@@ -116,17 +116,17 @@ footer{width: 300px;padding: 20px;margin: auto;border-radius: 10px 10px;align-it
     <div class="summary"><div id="text"><details><summary style="background-color: white;border: 5px solid black;box-shadow: 8px 8px 8px yellow;color: black;">QUAL?</summary>
     <br>
     <div class="color3">
-    <label for="Iniciante">Iniciante</label>
+    <label for="Iniciante" style="font-size: 5px;color: white;">Iniciante</label>
     <input type="checkbox" value="Iniciante" name="conhecimento?">
-    <label for="Aprendiz">Aprendiz</label>
+    <label for="Aprendiz" style="font-size: 5px;color: white;">Aprendiz</label>
     <input type="checkbox" value="Aprendiz" name="conhecimento?">
-    <label for="Intermediário">Intermediário</label>
+    <label for="Intermediário" style="font-size: 5px;color: white;">Intermediário</label>
     <input type="checkbox" value="Intermediário" name="conhecimento?">
-    <label for="Mediano">Mediano</label>
+    <label for="Mediano" style="font-size: 5px;color: white;">Mediano</label>
     <input type="checkbox" value="Mediano" name="conhecimento?">
-    <label for="Avançado">Avançado</label>
+    <label for="Avançado" style="font-size: 5px;color: white;">Avançado</label>
     <input type="checkbox" value="Avançado" name="conhecimento?">
-    <label for="Mistico">Mistico</label>
+    <label for="Mistico" style="font-size: 5px;color: white;">Mistico</label>
     <input type="checkbox" value="Mistico" name="conhecimento?">
     </div>
     </details></div>
@@ -137,17 +137,17 @@ footer{width: 300px;padding: 20px;margin: auto;border-radius: 10px 10px;align-it
     <div class="summary"><div id="text"><details><summary style="background-color: brown;color: white;border: 5px solid white;box-shadow: 8px 8px 8px brown;">QUAL?</summary>
     <br>
     <div class="color4">
-    <label for="Classe A">Classe A</label>
+    <label for="Classe A" style="font-size: 5px;color: black;">Classe A</label>
     <input type="radio" name="social?" value="Classe A" required>
-    <label for="Classe B">Classe B</label>
+    <label for="Classe B" style="font-size: 5px;color: black;">Classe B</label>
     <input type="radio" name="social?" value="Classe B" required>
-    <label for="Classe C">Classe C</label>
+    <label for="Classe C" style="font-size: 5px;color: black;">Classe C</label>
     <input type="radio" name="social?" value="Classe C" required>
-    <label for="Classe D">Classe D</label>
+    <label for="Classe D" style="font-size: 5px;color: black;">Classe D</label>
     <input type="radio" name="social?" value="Classe D" required>
-    <label for="Classe E">Classe E</label>
+    <label for="Classe E" style="font-size: 5px;color: black;">Classe E</label>
     <input type="radio" name="social?" value="Classe E" required>
-    <label for="Classe F">Classe F</label>
+    <label for="Classe F" style="font-size: 5px;color: black;">Classe F</label>
     <input type="radio" name="social?" value="Classe F" required>
     </div>
     </details></div>
