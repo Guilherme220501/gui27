@@ -1,0 +1,69 @@
+ul{text-align: left;list-style-type: none;}
+.menu {font-size: 20px;      font-style:oblique;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 10px;
+    z-index: 2000;
+border-radius: 10px 10px;
+list-style: none;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+/* Menu Lateral */
+.fundo {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Fora da tela inicialmente */
+    width: 170px;
+    height: 500vh;
+    background-color:white;
+    transition: left 0.5s;
+    z-index: 1000;
+    border-radius: 10px 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.botão-fechar-X {float: right;
+    position: relative;right: 10px;top: 10px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.animação ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
+    width: 100px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
+body{background:linear-gradient(to righr,white,black,white);align-items: center;justify-content: center;text-align: center;margin: auto;}
+h1{text-decoration: underline;font-size: 30px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: oblique;text-shadow: 6px;color: white;}
+h2{font-size: 20px;font-family:inherit;font-style:oblique;text-shadow: 6px;color: white;}
+p{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
+dl{padding: 6px;}
+dt{padding: 6px;text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
+dd{padding: 6px;text-align: left;font-size: 15px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style:initial;text-shadow: 6px;}
+summary{width: 230px;margin: auto;border-radius: 10px 10px;padding: 10px;text-shadow: 6px;}
+.summary:hover{transform: scale3d(1.02);transition: transform(0.8s);}
+thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
+tbody{text-align: left;font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: italic;text-shadow: 6px;}
+tfoot{text-align: left;font-size: 20px;font-family:'Times New Roman', Times, serif ;font-style: inherit;text-shadow: 6px;}
+section{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
+.section:hover{transform: scale3d(1.05);transition: transform(0.9s);}
+header{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
+.header:hover{transform: scale3d(1.03);transition: transform(0.9s);}
+footer{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
+.img:hover{transform: scale(1.01);transition: transform(0.8s);}
