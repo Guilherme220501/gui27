@@ -66,4 +66,4 @@ section{margin: auto;padding: 20px;align-items: center;justify-content: center;t
 header{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
 .header:hover{transform: scale(1.03);transition: transform(0.9s);}
 footer{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
-.img:hover{transform: scale(1.01);transition: transform(0.8s);}
+.img:hover{transform: scale(1.03);transition: transform(0.7s);}
