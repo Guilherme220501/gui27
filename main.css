@@ -49,7 +49,7 @@ list-style: none;
     border-radius: 10px 10px;
     margin-bottom: 10px;
 }
-body{background:linear-gradient(to righr,white,black,white);align-items: center;justify-content: center;text-align: center;margin: auto;}
+body{background:linear-gradient(to right,white,black,white);align-items: center;justify-content: center;text-align: center;margin: auto;}
 h1{text-decoration: underline;font-size: 30px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: oblique;text-shadow: 6px;color: white;}
 h2{font-size: 20px;font-family:inherit;font-style:oblique;text-shadow: 6px;color: white;}
 p{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
