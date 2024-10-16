@@ -57,13 +57,13 @@ dl{padding: 6px;}
 dt{padding: 6px;text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
 dd{padding: 6px;text-align: left;font-size: 15px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style:initial;text-shadow: 6px;}
 summary{width: 230px;margin: auto;border-radius: 10px 10px;padding: 10px;text-shadow: 6px;}
-.summary:hover{transform: scale3d(1.02);transition: transform(0.8s);}
+.summary:hover{transform: scale(1.02);transition: transform(0.7s);}
 thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
 tbody{text-align: left;font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: italic;text-shadow: 6px;}
 tfoot{text-align: left;font-size: 20px;font-family:'Times New Roman', Times, serif ;font-style: inherit;text-shadow: 6px;}
 section{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
-.section:hover{transform: scale(1.05);transition: transform(0.9s);}
+.section:hover{transform: scale(1.05);transition: transform(0.8s);}
 header{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
-.header:hover{transform: scale(1.03);transition: transform(0.9s);}
+.header:hover{transform: scale(1.03);transition: transform(0.8s);}
 footer{margin: auto;padding: 20px;align-items: center;justify-content: center;text-align: center;width: 300px;border-radius: 10px 10px 10px;}
-.img:hover{transform: scale(1.03);transition: transform(0.7s);}
+.img:hover{transform: scale(1.03);transition: transform(0.9s);}
